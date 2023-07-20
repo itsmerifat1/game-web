@@ -1,0 +1,50 @@
+@media screen and (max-width: 425px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .menu-container{
+        flex-direction: column;
+    }
+    .logo-container{
+        padding-top: 50px;
+    }
+    .menu-container a{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+        /* ---BANNER-RESPONSIVE--- */
+    .banner-container{
+       flex-direction: column-reverse;
+    }
+    .banner-left{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .banner-left p{
+        margin: 0 auto;
+        
+    }
+    .banner-right img{
+        width: 100%;
+    }
+
+    /* ---GAMER-PART--- */
+    .gamer-container{
+        flex-direction: column;
+    }
+    .gamer-right{
+        width: 100%;
+        margin: 0 auto;
+    }
+   
+    .card-wraper{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .play-games-left{
+        width: 100%;
+    }
+    
+}
